@@ -3,7 +3,6 @@ pipeline{
   tools {
     jdk 'Java17'
     maven 'Maven3'
-    git 'Git2.43.0'
     }
   stages{
     stage("Cleanup Workspace") {
